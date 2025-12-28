@@ -1,0 +1,67 @@
+{
+  "sites": [
+    {
+      "name": "Free Movie Site",
+      "url_pattern": "https://bdstudios.nl/freemov67/client/*",
+      "activity_type": "Watching on",
+      "title_trim": "|",
+      "enabled": true
+    },
+    {
+      "name": "ChatGPT",
+      "url_pattern": "https://chatgpt.com/*",
+      "activity_type": "Using",
+      "title_trim": "",
+      "enabled": true
+    },
+    {
+      "name": "YouTube",
+      "url_pattern": "https://youtube.com/watch*",
+      "activity_type": "Watching",
+      "title_trim": " - YouTube",
+      "enabled": true
+    },
+    {
+      "name": "Gemini",
+      "url_pattern": "https://gemini.google.com/*",
+      "activity_type": "Chatting with",
+      "title_trim": "",
+      "enabled": true
+    },
+    {
+      "name": "Google",
+      "url_pattern": "https://google.com/search*",
+      "activity_type": "Searching on",
+      "title_trim": " - Google Search",
+      "enabled": true
+    },
+    {
+      "name": "Twitch",
+      "url_pattern": "https://twitch.tv/*",
+      "activity_type": "Watching",
+      "title_trim": " - Twitch",
+      "enabled": true
+    },
+    {
+      "name": "Netflix",
+      "url_pattern": "https://netflix.com/watch*",
+      "activity_type": "Watching",
+      "title_trim": " - Netflix",
+      "enabled": true
+    },
+    {
+      "name": "GitHub",
+      "url_pattern": "https://github.com/*",
+      "activity_type": "Coding on",
+      "title_trim": "",
+      "enabled": true
+    },
+    {
+      "name": "HiAnime.to",
+      "url_pattern": "https://hianime.to/*",
+      "activity_type": "",
+      "title_trim": "online Free",
+      "enabled": true
+    }
+  ]
+}
