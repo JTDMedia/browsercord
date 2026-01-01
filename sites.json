@@ -62,6 +62,13 @@
       "activity_type": "",
       "title_trim": "online Free",
       "enabled": true
+    },
+    {
+      "name": "wf.gt.tc Free Content",
+      "url_pattern": "https://wf.gt.tc/client/*",
+      "activity_type": "Watching ",
+      "title_trim": "|",
+      "enabled": true
     }
   ]
 }
