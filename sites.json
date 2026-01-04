@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "sites": [
     {
       "name": "Free Movie Site",
@@ -67,6 +68,13 @@
       "name": "wf.gt.tc Free Content",
       "url_pattern": "https://wf.gt.tc/client/*",
       "activity_type": "Watching ",
+      "title_trim": "|",
+      "enabled": true
+    },
+    {
+      "name": "Tria.ge",
+      "url_pattern": "https://tria.ge/*",
+      "activity_type": "Analyzing",
       "title_trim": "|",
       "enabled": true
     }
