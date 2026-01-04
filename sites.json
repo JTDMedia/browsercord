@@ -1,81 +1,116 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "sites": [
     {
       "name": "Free Movie Site",
-      "url_pattern": "https://bdstudios.nl/freemov67/client/*",
+      "url_pattern": "bdstudios.nl/freemov67/client",
       "activity_type": "Watching on",
-      "title_trim": "|",
+      "title_trim": "| Free Movie Site",
       "enabled": true
     },
     {
       "name": "ChatGPT",
-      "url_pattern": "https://chatgpt.com/*",
+      "url_pattern": "chatgpt.com",
       "activity_type": "Using",
-      "title_trim": "",
+      "title_trim": "ChatGPT",
       "enabled": true
     },
     {
       "name": "YouTube",
-      "url_pattern": "https://youtube.com/watch*",
+      "url_pattern": "youtube.com/watch",
       "activity_type": "Watching",
-      "title_trim": " - YouTube",
+      "title_trim": "- YouTube",
       "enabled": true
     },
     {
       "name": "Gemini",
-      "url_pattern": "https://gemini.google.com/*",
+      "url_pattern": "gemini.google.com",
       "activity_type": "Chatting with",
       "title_trim": "",
       "enabled": true
     },
     {
       "name": "Google",
-      "url_pattern": "https://google.com/search*",
+      "url_pattern": "google.com/search",
       "activity_type": "Searching on",
-      "title_trim": " - Google Search",
+      "title_trim": "- Google Search",
       "enabled": true
     },
     {
       "name": "Twitch",
-      "url_pattern": "https://twitch.tv/*",
+      "url_pattern": "twitch.tv",
       "activity_type": "Watching",
-      "title_trim": " - Twitch",
+      "title_trim": "- Twitch",
+      "enabled": true
+    },
+    {
+      "name": "Kick",
+      "url_pattern": "kick.com",
+      "activity_type": "Watching",
+      "title_trim": "| Kick",
       "enabled": true
     },
     {
       "name": "Netflix",
-      "url_pattern": "https://netflix.com/watch*",
+      "url_pattern": "netflix.com/watch",
       "activity_type": "Watching",
-      "title_trim": " - Netflix",
+      "title_trim": "- Netflix",
+      "enabled": true
+    },
+    {
+      "name": "Disney+",
+      "url_pattern": "disneyplus.com/video",
+      "activity_type": "Watching",
+      "title_trim": "| Disney+",
       "enabled": true
     },
     {
       "name": "GitHub",
-      "url_pattern": "https://github.com/*",
+      "url_pattern": "github.com",
       "activity_type": "Coding on",
-      "title_trim": "",
+      "title_trim": "GitHub -",
       "enabled": true
     },
     {
-      "name": "HiAnime.to",
-      "url_pattern": "https://hianime.to/*",
-      "activity_type": "",
-      "title_trim": "online Free",
+      "name": "HiAnime",
+      "url_pattern": "hianime.to",
+      "activity_type": "Watching Anime on",
+      "title_trim": "online Free on HiAnime.to",
       "enabled": true
     },
     {
-      "name": "wf.gt.tc Free Content",
-      "url_pattern": "https://wf.gt.tc/client/*",
-      "activity_type": "Watching ",
+      "name": "wf.gt.tc",
+      "url_pattern": "wf.gt.tc/client",
+      "activity_type": "Watching",
       "title_trim": "|",
       "enabled": true
     },
     {
       "name": "Tria.ge",
-      "url_pattern": "https://tria.ge/*",
-      "activity_type": "Analyzing",
+      "url_pattern": "tria.ge",
+      "activity_type": "Analyzing on",
       "title_trim": "|",
+      "enabled": true
+    },
+    {
+      "name": "SoundCloud",
+      "url_pattern": "soundcloud.com",
+      "activity_type": "Listening to",
+      "title_trim": "Stream",
+      "enabled": true
+    },
+    {
+      "name": "Discord",
+      "url_pattern": "discord.com/channels",
+      "activity_type": "Chatting on",
+      "title_trim": "Discord |",
+      "enabled": true
+    },
+    {
+      "name": "Prime Video",
+      "url_pattern": "primevideo.com/detail",
+      "activity_type": "Watching",
+      "title_trim": ": Amazon Prime Video",
       "enabled": true
     }
   ]
